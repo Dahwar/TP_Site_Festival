@@ -1,0 +1,550 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f5f5ec;
+	color: black;
+    font-size: 1em;
+	margin: 0px;
+    font-family: "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Helvetica,Sans-Serif;
+	text-align: justify;
+	min-width: 1200px;
+}
+
+header{
+    border: none;
+	background-color: #333;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+nav{
+	width: 920px;
+	display: inline-block;
+}
+
+section{
+	border: 1px solid #e5e5db;
+	width: 855px;
+	display: block;
+	margin: 30px 0px 10px 0px;
+	padding: 15px 30px 40px 35px;
+	background-color: white;
+	border-radius: 15px;
+	float: left;
+	box-shadow: 3px 3px 14px black;
+}
+
+article{
+	width: 610px;
+	display: inline-block;
+	float: left;
+}
+
+aside{
+	width: 25%;
+	float: right;
+}
+
+footer{
+	text-transform: uppercase;
+	text-align: center;
+	width: 920px;
+	margin: 5px 0px 20px 0px;
+	font-size: 0.8em;
+	display: block;
+	float: left;
+}
+
+footer div{
+	display: inline-block;
+	float: left;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer ul{
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+h1{
+	color: white;
+	font-size: 2em;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0.9;
+	font-weight: bold;
+}
+
+h2{
+	color: #00a3d3;
+	font-size: 1.7em;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 0.9;
+}
+
+h3{
+    margin: 0px;
+	padding: 0px;
+	color: #a4aa04;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	line-height: 2.2;
+}
+
+h4{
+    margin: 0px;
+	padding: 0px;
+	color: #a4aa04;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	line-height: 2.2;
+}
+
+h5{
+    margin: 0px;
+	padding: 0px;
+	color: #888;
+	font-size: 1.2em;
+	line-height: 2.2;
+}
+
+p{
+    margin: 0px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+    outline: none;
+}
+
+a img{
+	border: none;
+}
+
+nav a{
+	text-transform: uppercase;
+	background-color: #555;
+	border-radius: 10px 0px 10px 0px;
+	padding: 11px 15px 11px 15px;
+	margin: 0px 3px 0px 3px;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+	-moz-transition-property: color, background-color;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-property: color, background-color;
+	-webkit-transition-duration: 0.4s;
+    -o-transition-property: color, background-color;
+	-o-transition-duration: 0.4s;
+}
+
+nav a:hover, nav a.in{
+    background-color: #f5f5ec;
+	color: black;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+article li{
+	list-style-image: url(../images/puce.png);
+	font-size: 0.9em;
+}
+
+p a, form a{
+	color: #a4aa04;
+	-moz-transition-property: color;
+	-moz-transition-duration: 0.7s;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 0.7s;
+    -o-transition-property: color;
+	-o-transition-duration: 0.7s;
+}
+
+.ailleurs a, .lienPucePage a{
+	color: #a4aa04;
+}
+
+p a:hover, form a:hover, .ailleurs a:hover, .lienPucePage a:hover{
+	border-bottom: 1px dotted #f1811d;
+	color: #f1811d;
+}
+
+fieldset{
+	border: 2px solid #f7c015;
+	margin: 10px 0px 10px 0px;
+	border-radius: 3px;
+}
+
+legend{
+	color: #f7c015;
+	font-weight: bold;
+	margin: 0px 0px 9px 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+select{
+	background-color: #f5f5ec;
+	color: black;
+	border-radius: 5px 0px 0px 5px;
+	padding: 1px 1px 1px 3px;
+	border: 1px solid #a4aa04;
+	-moz-transition-property: box-shadow;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	-webkit-transition-duration: 0.3s;
+    -o-transition-property: box-shadow;
+	-o-transition-duration: 0.3s;
+}
+
+input, textarea{
+	background-color: #f5f5ec;
+	color: black;
+	border-radius: 3px 3px 3px 3px;
+	padding: 1px 1px 1px 3px;
+	border: 1px solid #a4aa04;
+	-moz-transition-property: box-shadow;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	-webkit-transition-duration: 0.3s;
+    -o-transition-property: box-shadow;
+	-o-transition-duration: 0.3s;
+}
+
+select:hover, select:focus, input:hover, input:focus, textarea:hover, textarea:focus{
+	box-shadow: 0px 0px 5px #a4aa04;
+}
+
+h5.droite{
+	border-bottom: 1px solid #a4aa04;
+	line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.droite{
+	text-align: right;
+}
+
+.title{
+    text-align: left;
+	display: inline-block;
+	margin: 30px 0px 25px 307px;
+	float: left;
+}
+
+.connection{
+    text-align: center;
+	background-color: #00a3d3;
+	color: white;
+	font-weight: bold;
+	font-size: 0.8em;
+	display: inline-block;
+	margin: 20px 285px 10px 0px;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 10px 0px 10px 0px;
+	vertical-align: top;
+	float: right;
+}
+
+.connection a{
+	color: white;
+}
+
+.connection a:hover{
+    border-bottom: 1px dotted white;
+}
+
+.float{
+	float:left;
+	margin: 2px 10px 0px 0px;
+    background-image: url(../images/logo.png);
+    height: 100px;
+	width: 100px;
+}
+
+.global{
+	margin: auto;
+	width: 920px;
+	font-size: 0.9em;
+}
+
+#wrapper{
+	margin: 20px 0px 0px 75px;
+}
+
+.titleWrite{
+	float: left;
+    display: block;
+}
+
+.body-content p{
+	text-indent: 40px
+}
+
+.ailleurs li{
+	list-style-image: url(../images/puce.png);
+	margin: 0px 0px 1px 50px;
+}
+
+.lienPucePage li{
+	list-style-image: url(../images/puce.png);
+	margin: 1px 0px 0px 0px;
+}
+
+.ailleurs li:hover, .lienPucePage li:hover{
+	list-style-image: url(../images/puce_liens.png);
+}
+
+.ailleurs ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.copyright{
+	width: 80%;
+	margin-top: 5px;
+}
+
+.facebook{
+	height: 32px;
+	width: 32px;
+	background-image: url(../images/facebook_32.png);
+	background-position: 0px 0px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.facebook:hover{
+	background-position: 0px -32px;
+}
+
+.twitter{
+	height: 32px;
+	width: 32px;
+	background-image: url(../images/twitter_32.png);
+	background-position: 0px 0px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.twitter:hover{
+	background-position: 0px -32px;
+}
+
+.vimeo{
+	height: 32px;
+	width: 32px;
+	background-image: url(../images/vimeo_32.png);
+	background-position: 0px 0px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.vimeo:hover{
+	background-position: 0px -32px;
+}
+
+.youtube{
+	height: 32px;
+	width: 32px;
+	background-image: url(../images/youtube_32.png);
+	background-position: 0px 0px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.youtube:hover{
+	background-position: 0px -32px;
+}
+
+.artistes, .artistes-droite{
+	border: 1px dashed black;
+	height: 60px;
+	margin: 0px 0px 10px 0px;
+	-moz-transition-property: background-color;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 0.5s;
+    -o-transition-property: background-color;
+	-o-transition-duration: 0.5s;
+}
+
+.artistes:hover, .artistes-droite:hover{
+	background-color: #f5f5ec;
+}
+
+.artistes span, .artistes-droite span{
+	color: #ff7b00;
+	font-size: 1.3em;
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+}
+
+.artistes p{
+	display: inline-block;
+	color: black;
+	margin: 5px 0px 0px 10px;
+}
+
+.artistes-droite p{
+	display: inline-block;
+	color: black;
+	text-align: right;
+	margin: 3px 2px 0px 0px;
+	float: right;
+}
+
+.artistes img, .artistes-droite img{
+	float: left;
+	display: inline-block;
+}
+
+.placesRestantes li{
+	list-style-image: url(../images/puce.png);
+	margin: 0px 0px 0px 50px;
+}
+
+.placesRestantes ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.imgFicheArtiste{
+	display: inline-block;
+	float: right;
+	margin-top: 60px;
+}
+
+.ficheArtiste{
+	float: left;
+	width: 440px;
+}
+
+.gros{
+	font-size: 1.3em;
+}
+
+.petit{
+	font-size: 0.8em;
+	color: #696969;
+}
+
+.button{
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+
+.button input{
+	background-color: #f5f5ec;
+	color: black;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #a4aa04;
+	-moz-transition-property: box-shadow, padding;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-property: box-shadow, padding;
+	-webkit-transition-duration: 0.5s;
+    -o-transition-property: box-shadow, padding;
+	-o-transition-duration: 0.5s;
+}
+
+.button input:hover{
+	background-color: #f5f5ec;
+	color: black;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px 20px 5px 20px;
+	border: 1px solid #a4aa04;
+}
+
+.reservation{
+	color: #f7c015;
+	font-weight: bold;
+	margin: 0px 0px 9px 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+textarea{
+    height: 150px;
+    width: 300px;
+}
+
+.envoiImage:hover, .envoiImage:focus{
+    box-shadow: none;
+}
+
+.checkbox{
+    background-color: white;
+    vertical-align: top;
+    margin: 3px 0px 0px 0px;
+}
+
+.checkbox:hover, .checkbox:focus{
+    box-shadow: none;
+}
+
+.checkboxLabel{
+    width: 70px;
+    padding: 0px 25px 0px 3px;
+}
+
+.input{
+    display: block;
+    margin : 20px 0px 20px 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+.input-label{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.controls{
+    display: inline-block;
+}
+
+.controls select, .controls input{
+    width: 300px;
+}
+
+.divCheckbox{
+    display: inline-block;
+}
+
+.erreurFormulaire{
+    color: red;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.validFormulaire{
+    color: black;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.copyright a:hover{
+    border: none;
+}
